@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- title is used to provide
+			a specific name to our web-page! -->
+		<title>BMI-CALCULATOR</title>
+		<!-- link function is used here, so that we can
+	connect our css file with our html file externally -->
+	
+	</head>
+	<body>
+		
+        <div class="content"
+		style ="
+		width: 450px;
+		position: relative;
+		left: 530px;
+		top: 30px;
+		background: #fff;
+		">
+
+		<form 
+		style="
+		height: 450px;
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 10px;
+		border-color: #0F044C;" 
+		action="/bmicalculator" 
+		method="post">
+		<div id="MAIN">
+			<h1 style="text-align: center; color:#0F044C; " id="heading">BMI-CALCULATOR</h1>
+		</div>
+			<input 
+			style = "
+			height: 40px;
+			width: 350px;
+			position: relative;
+			top: 20px;
+			left: 43px;
+			border-style: solid;
+			border-width: 0.3px;
+			border-color: #ccc;
+			border-radius: 10px;
+			"
+			type="text"
+				name="Name"
+				placeholder="Enter your name!" />
+			<br />
+			<input 
+			style = "
+			height: 40px;
+			width: 350px;
+			position: relative;
+			top: 40px;
+			left: 43px;
+			border-style: solid;
+			border-width: 0.3px;
+			border-color: #ccc;
+			border-radius: 10px;
+			"
+			id="Height"
+				name="Height"
+				placeholder="Enter your height(m)" />
+			<br />
+			<input 
+			style = "
+			height: 40px;
+			width: 350px;
+			position: relative;
+			top: 60px;
+			left: 43px;
+			border-style: solid;
+			border-width: 0.3px;
+			border-color: #ccc;
+			border-radius: 10px;
+			"
+			id="Weight"
+				name="Weight"
+				placeholder="Enter your weight(kg)" />
+			<br />
+			<button 
+			style="
+			 -webkit-border-radius: 4;
+			-moz-border-radius: 4;
+			border-radius: 4px;
+			font-family: Georgia;
+			color:#eff1f2;
+			font-size: 28px;
+			background: #0F044C;
+			padding: 10px 20px 10px 20px;
+			border: solid #0F044C 1px;
+			border-radius: 50px;
+			width: 250px;
+			text-decoration: none;
+			position: relative;
+			left: 92px;
+			top: 100px;
+			onclick: cursor;"
+			class="btn"
+					type="submit">Get-BMI</button>
+		</form>
+	   </div>
+	</body>
+</html>
